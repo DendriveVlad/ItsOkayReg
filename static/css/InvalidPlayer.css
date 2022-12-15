@@ -1,0 +1,33 @@
+body {
+    background-color: #424549;
+    color: #EB5D3B;
+}
+
+@font-face {
+    font-family: font;
+    src: url(../font/font.otf);
+}
+
+p {
+    text-align: center;
+    font-size: 400%;
+    color: #EB5D3B;
+    font-family: font, serif;
+}
+
+a {
+    font-size: small;
+}
+
+.ip {
+    color: #F6D715;
+}
+
+.warning {
+    margin: 10px auto 20px;
+    display: block;
+    top: 0;
+    width: 200px;
+    height: 200px;
+}
+

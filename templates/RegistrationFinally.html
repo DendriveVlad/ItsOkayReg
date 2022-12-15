@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ItsOkay</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/Successful.css">
+    <link rel="shortcut icon" href="../static/img/ItsOkay.png" type="image/png">
+</head>
+<body>
+    <p>
+        Регистрация прошла успешно. Осталось только зайти на наш дискорд-сервер.
+    </p>
+    <a>
+        <img class="ok" src="../static/img/ok.png" alt="html">
+    </a>
+    <iframe class="ds" src="https://discord.com/widget?id=831144485319868417&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+    <form action="/log?connection={{ connection }}" method="POST">
+        <input type="hidden" name="cookie" value="{{cookie}}">
+        <button class="{{button_color}}">{{check}} Запомнить браузер</button>
+    </form>
+</body>
+</html>

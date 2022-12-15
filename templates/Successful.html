@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ItsOkay</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/Successful.css">
+    <link rel="shortcut icon" href="../static/img/ItsOkay.png" type="image/png">
+</head>
+<body>
+    <p>
+        Вход прошёл успешно, можете вернуться в игру
+    </p>
+    <a>
+        <img class="ok" src="../static/img/ok.png" alt="html">
+    </a>
+    {{ds|safe}}
+    <form action="/log?connection={{ connection }}" method="POST">
+        <input type="hidden" name="cookie" value="{{cookie}}">
+        <button class="{{button_color}}">{{check}} Запомнить браузер</button>
+    </form>
+</body>
+</html>

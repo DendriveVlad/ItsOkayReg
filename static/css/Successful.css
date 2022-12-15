@@ -1,0 +1,75 @@
+body {
+    background-color: #424549;
+    color: #EB5D3B;
+}
+
+@font-face {
+    font-family: font;
+    src: url(../font/font.otf);
+}
+
+p {
+    text-align: center;
+    font-size: 400%;
+    color: #77C437;
+    font-family: font, serif;
+}
+
+a {
+    font-size: small;
+}
+
+.ok {
+    margin: 10px auto 20px;
+    display: block;
+    top: 0;
+    width: 200px;
+    height: 200px;
+}
+
+.ds {
+    margin: 10px auto 20px;
+    display: block;
+}
+
+button{
+    font-weight: 700;
+    font-size: 130%;
+    text-align: center;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    transition: 0.2s;
+    margin: 10px auto 20px;
+    display: block;
+}
+
+button.green {
+    color: #094E0C;
+    background: rgb(64, 199, 129);
+    box-shadow: 0 -3px rgb(53, 167, 110) inset;
+}
+
+button.gray {
+    color: #585858;
+    background: rgb(194, 194, 194);
+    box-shadow: 0 -3px rgb(170, 170, 170) inset;
+}
+
+button.green:hover {
+    background: rgb(53, 167, 110);
+}
+
+button.gray:hover {
+    background: rgb(170, 170, 170);
+}
+
+button.green:active {
+    background: rgb(33, 147, 90);
+    box-shadow: 0 3px rgb(33, 147, 90) inset;
+}
+
+button.gray:active {
+    background: rgb(100, 100, 100);
+    box-shadow: 0 3px rgb(100, 100, 100) inset;
+}
